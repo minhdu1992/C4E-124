@@ -124,6 +124,18 @@ do {
     count++
 } while (count < arr1.length - 1);
 console.log(arr1);
+// cach 2: 
+const arr = [1,1,3,4,5,7,7,2,2,3]
+for (let i = 0; i < arr.length; i++) {
+     const element = arr[i]
+for (let j = i+1 ; j < arr.length; j++) {
+     if(arr[j] == element)
+     {
+          arr.splice(j,1)
+     }
+  }
+}
+console.log(arr);
 //bai tap 5
 let day = Number(prompt("vui long nhap ngay "))
 let months = Number(prompt("vui long nhap months"))
