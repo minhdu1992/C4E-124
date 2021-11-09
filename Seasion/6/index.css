@@ -1,0 +1,103 @@
+
+/*li:first-child{
+    color: seagreen;
+}
+li:last-child{
+    color: red
+}
+#a{
+    color: saddlebrown;
+}
+#header{
+    color: slateblue;
+}
+.main-content{
+    font-size: 120px;
+    color: red;
+} */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+body{
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 184.1px;
+    margin-right: 184px;
+}
+#header{
+    margin-top: 40.98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    object-fit: cover;
+    Width : 199.48px;
+    height: 39.22px;
+    top: 40.98px;
+    left: 184.1px;
+
+}
+.header-menu{
+width: 327px;
+display: flex;
+justify-content: space-between;
+}
+.header-menu >div{
+    color: #19191B;
+}
+.header-button{
+padding-top: 19px;
+padding-left: 56px;
+padding-right: 56px;
+padding-bottom: 19px;
+background: #FF7143;
+border-radius: 10px;
+color: #FFFFFF;
+border: 0px;
+outline: none;
+font-size: 17px;
+}
+.main-contain{
+  margin-top: 100px;
+}
+.main-contain-hero{
+    display: flex;
+    justify-content:space-between;
+}
+.hero-left{
+    width: 459px;
+}
+.hero-left>.slogan{
+    color: #19191B;
+    font-size: 80px;
+    line-height: 77px;
+}
+.hero-left>.discripsion{
+    margin-top: 30px;
+    color: #696871;
+    font-size: 20px;
+}
+.hero-left>.action{
+    margin-top: 50px;
+    display: flex;
+
+}
+.hero-left>.action > button{
+    /*margin-top: 17px;*/
+    padding: 19px 69px;
+    background: #5454D4;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.hero-left>.action > img{
+   object-fit: cover;
+   height: 60px;
+   width: auto;
+   margin-left: 40px
+}
+.hero-right{
+    height: 544px;
+    width: auto;
+    object-fit: cover;
+}
+.main-advertising{
+    
+}
